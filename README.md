@@ -9,7 +9,7 @@ We'll be working with some specific files of HERA data, which we can find with t
 
 To download the files from the librarian, go to "search" and enter in the text field:
 ```
-{"name-like": "zen.2457700.4#.xx.HH.uvc"}
+{"name-like": "zen.2457700.4%.xx.HH.uvc"}
 ```
-This will return all files that have a JD starting with `2457700.4`. Click on each file to download it.
+This will return all files that have a JD starting with `2457700.4`, as well as the desired polarization and array components. The `%` operator is a wildcard character in SQL (the database software managing the librarian's storage) that behaves the same way as the `*` operator for the shell. Click on each file to download it.
 
